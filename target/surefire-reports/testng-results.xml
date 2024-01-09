@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-08T20:47:31 EST" name="Surefire suite" finished-at="2024-01-08T20:48:37 EST" duration-ms="66597">
+    <groups>
+    </groups>
+    <test started-at="2024-01-08T20:47:31 EST" name="Surefire test" finished-at="2024-01-08T20:48:37 EST" duration-ms="66597">
+      <class name="com.qa.TNTestCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.LoginTest@197d671]" started-at="2024-01-08T20:47:51 EST" name="setup" finished-at="2024-01-08T20:47:56 EST" duration-ms="5718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.qa.TNTestCases.LoginTest@197d671]" started-at="2024-01-08T20:47:56 EST" name="verifyLoginWithValidCredentials" finished-at="2024-01-08T20:47:59 EST" duration-ms="2718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+      </class> <!-- com.qa.TNTestCases.LoginTest -->
+      <class name="com.qa.TNTestCases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.RegisterTest@402e37bc]" started-at="2024-01-08T20:47:59 EST" name="setup" finished-at="2024-01-08T20:48:18 EST" duration-ms="18758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithAllFields()[pri:0, instance:com.qa.TNTestCases.RegisterTest@402e37bc]" started-at="2024-01-08T20:48:18 EST" name="verifyRegisterWithAllFields" finished-at="2024-01-08T20:48:24 EST" duration-ms="5748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithAllFields -->
+      </class> <!-- com.qa.TNTestCases.RegisterTest -->
+      <class name="com.qa.TNTestCases.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.AddToCartTest@6f3b5d16]" started-at="2024-01-08T20:47:31 EST" name="setup" finished-at="2024-01-08T20:47:36 EST" duration-ms="5408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addingProductsToCart()[pri:0, instance:com.qa.TNTestCases.AddToCartTest@6f3b5d16]" started-at="2024-01-08T20:47:36 EST" name="addingProductsToCart" finished-at="2024-01-08T20:47:39 EST" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProductsToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.TNTestCases.AddToCartTest@6f3b5d16]" started-at="2024-01-08T20:47:39 EST" name="teardown" finished-at="2024-01-08T20:47:39 EST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.TNTestCases.AddToCartTest -->
+      <class name="com.qa.TNTestCases.CheckOutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.CheckOutTest@27c86f2d]" started-at="2024-01-08T20:47:39 EST" name="setup" finished-at="2024-01-08T20:47:43 EST" duration-ms="3871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutProduct()[pri:0, instance:com.qa.TNTestCases.CheckOutTest@27c86f2d]" started-at="2024-01-08T20:47:43 EST" name="checkoutProduct" finished-at="2024-01-08T20:47:50 EST" duration-ms="7620" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="button" value="Continue" id="button-shipping-address" data-loading-text="Loading..." class="btn btn-primary"> is not clickable at point (1275, 267). Other element would receive the click: <h4 class="panel-title">...</h4>
+  (Session info: chrome=120.0.6099.131)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11e269a9a6388fa614a5d471e5baf85a, clickElement {id=F104C9BFAA2C79F9206AB290BA8D33BF_element_5160}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.131, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\rshiw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49727}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49727/devtoo..., se:cdpVersion: 120.0.6099.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (11e269a9a6388fa614a5d471e5baf85a)] -> id: button-shipping-address]
+Session ID: 11e269a9a6388fa614a5d471e5baf85a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="button" value="Continue" id="button-shipping-address" data-loading-text="Loading..." class="btn btn-primary"> is not clickable at point (1275, 267). Other element would receive the click: <h4 class="panel-title">...</h4>
+  (Session info: chrome=120.0.6099.131)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11e269a9a6388fa614a5d471e5baf85a, clickElement {id=F104C9BFAA2C79F9206AB290BA8D33BF_element_5160}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.131, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\rshiw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49727}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49727/devtoo..., se:cdpVersion: 120.0.6099.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (11e269a9a6388fa614a5d471e5baf85a)] -> id: button-shipping-address]
+Session ID: 11e269a9a6388fa614a5d471e5baf85a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+at com.qa.TNPages.ProductCheckOutPage.continueButtonShipping(ProductCheckOutPage.java:122)
+at com.qa.TNTestCases.CheckOutTest.checkoutProduct(CheckOutTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.TNTestCases.CheckOutTest@27c86f2d]" started-at="2024-01-08T20:47:50 EST" name="teardown" finished-at="2024-01-08T20:47:51 EST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.TNTestCases.CheckOutTest -->
+      <class name="com.qa.TNTestCases.SearchProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.SearchProductTest@79ad8b2f]" started-at="2024-01-08T20:48:24 EST" name="setup" finished-at="2024-01-08T20:48:34 EST" duration-ms="10128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchWithValidProduct()[pri:0, instance:com.qa.TNTestCases.SearchProductTest@79ad8b2f]" started-at="2024-01-08T20:48:34 EST" name="SearchWithValidProduct" finished-at="2024-01-08T20:48:37 EST" duration-ms="3636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidProduct -->
+      </class> <!-- com.qa.TNTestCases.SearchProductTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

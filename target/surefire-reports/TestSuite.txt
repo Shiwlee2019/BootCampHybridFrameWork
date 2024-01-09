@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.772 s <<< FAILURE! - in TestSuite
+checkoutProduct(com.qa.TNTestCases.CheckOutTest)  Time elapsed: 7.629 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="button" value="Continue" id="button-shipping-address" data-loading-text="Loading..." class="btn btn-primary"> is not clickable at point (1275, 267). Other element would receive the click: <h4 class="panel-title">...</h4>
+  (Session info: chrome=120.0.6099.131)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11e269a9a6388fa614a5d471e5baf85a, clickElement {id=F104C9BFAA2C79F9206AB290BA8D33BF_element_5160}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.131, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\rshiw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49727}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49727/devtoo..., se:cdpVersion: 120.0.6099.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (11e269a9a6388fa614a5d471e5baf85a)] -> id: button-shipping-address]
+Session ID: 11e269a9a6388fa614a5d471e5baf85a
+	at com.qa.TNTestCases.CheckOutTest.checkoutProduct(CheckOutTest.java:67)
+

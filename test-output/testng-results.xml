@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-08T22:19:06 EST" name="Suite" finished-at="2024-01-08T22:20:03 EST" duration-ms="57511">
+    <groups>
+    </groups>
+    <test started-at="2024-01-08T22:19:06 EST" name="Test" finished-at="2024-01-08T22:20:03 EST" duration-ms="57511">
+      <class name="com.qa.TNTestCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.LoginTest@248e319b]" started-at="2024-01-08T22:19:15 EST" name="setup" finished-at="2024-01-08T22:19:24 EST" duration-ms="9393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.qa.TNTestCases.LoginTest@248e319b]" started-at="2024-01-08T22:19:24 EST" name="verifyLoginWithValidCredentials" finished-at="2024-01-08T22:19:26 EST" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+      </class> <!-- com.qa.TNTestCases.LoginTest -->
+      <class name="com.qa.TNTestCases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.RegisterTest@e350b40]" started-at="2024-01-08T22:19:06 EST" name="setup" finished-at="2024-01-08T22:19:13 EST" duration-ms="6743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithAllFields()[pri:0, instance:com.qa.TNTestCases.RegisterTest@e350b40]" started-at="2024-01-08T22:19:13 EST" name="verifyRegisterWithAllFields" finished-at="2024-01-08T22:19:15 EST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithAllFields -->
+      </class> <!-- com.qa.TNTestCases.RegisterTest -->
+      <class name="com.qa.TNTestCases.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.AddToCartTest@793f29ff]" started-at="2024-01-08T22:19:36 EST" name="setup" finished-at="2024-01-08T22:19:42 EST" duration-ms="6217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addingProductsToCart()[pri:0, instance:com.qa.TNTestCases.AddToCartTest@793f29ff]" started-at="2024-01-08T22:19:42 EST" name="addingProductsToCart" finished-at="2024-01-08T22:19:45 EST" duration-ms="2857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProductsToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.TNTestCases.AddToCartTest@793f29ff]" started-at="2024-01-08T22:19:45 EST" name="teardown" finished-at="2024-01-08T22:19:45 EST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.TNTestCases.AddToCartTest -->
+      <class name="com.qa.TNTestCases.CheckOutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.CheckOutTest@3e8c3cb]" started-at="2024-01-08T22:19:45 EST" name="setup" finished-at="2024-01-08T22:19:51 EST" duration-ms="6204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutProduct()[pri:0, instance:com.qa.TNTestCases.CheckOutTest@3e8c3cb]" started-at="2024-01-08T22:19:51 EST" name="checkoutProduct" finished-at="2024-01-08T22:20:03 EST" duration-ms="12240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.TNTestCases.CheckOutTest@3e8c3cb]" started-at="2024-01-08T22:20:03 EST" name="teardown" finished-at="2024-01-08T22:20:03 EST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.TNTestCases.CheckOutTest -->
+      <class name="com.qa.TNTestCases.SearchProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TNTestCases.SearchProductTest@5d0bf09b]" started-at="2024-01-08T22:19:26 EST" name="setup" finished-at="2024-01-08T22:19:34 EST" duration-ms="8475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchWithValidProduct()[pri:0, instance:com.qa.TNTestCases.SearchProductTest@5d0bf09b]" started-at="2024-01-08T22:19:34 EST" name="SearchWithValidProduct" finished-at="2024-01-08T22:19:36 EST" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidProduct -->
+      </class> <!-- com.qa.TNTestCases.SearchProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
